@@ -1,0 +1,100 @@
+.menu-comprar{
+    background-color: #2667B7;
+
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor:url();
+    position:relative;
+    top:500px;
+    left:500px;
+
+
+
+    border-radius: 10px 10px 10px 10px;
+            box-shadow:inset 0px 0px 20px 0px #01FFEE;
+     margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 768px){
+ .menu-comprar{ 
+  left:220px;
+
+  }}
+
+
+
+
+body{background-color:#050000;
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px){
+  body{ background-color:red;
+
+  }}
+
+
+
+.menu-comprar:hover { 
+					
+
+   opacity:1;
+
+
+
+
+}
+
+
+.logo-post-group{ background-image:url(https://uploaddeimagens.com.br/images/003/629/326/original/logo.png?1642112799);
+                    position:relative;
+                   
+                top:-50px;
+                  left:325px;
+                  width:700px;
+                  height:450px;
+                  transition:2s;
+                
+                  z-index:1;
+        
+                       
+
+}
+
+ @media screen and (max-width: 768px){
+  .logo-post-group{   left:10px;
+  }}
+
+
+
+
+
+
+.header-logo{background-color:#151515;
+  position:absolute;
+  width:1360px;
+  height:400px;
+ 
+  top:-100px;
+  left:0px;
+  z-index:0;
+   border-bottom: 5px solid #2EFEF7;
+  }
+
+  @media screen and (max-width: 768px){
+ .header-logo{ width:100%;
+
+  }}
